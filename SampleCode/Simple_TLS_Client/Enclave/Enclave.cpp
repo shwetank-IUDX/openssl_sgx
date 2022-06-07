@@ -5,6 +5,7 @@
 
 #define	INADDR_NONE		((unsigned long int) 0xffffffff)
 
+
 static void init_openssl()
 {
 	OpenSSL_add_ssl_algorithms();
@@ -75,10 +76,7 @@ static int inet_aton(const char *cp, struct in_addr *addr)
 	 */
 	if (*cp && (!isascii(*cp) || !isspace(*cp)))
 		return (0);
-	/*
-	 * Concoct the address according to
-	 * the number of parts specified.
-	 */
+
 	n = pp - parts + 1;
 	switch (n) {
 
