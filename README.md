@@ -10,3 +10,8 @@ I hope you can get some hints from the sample applications.
 4. Start the TLS server at SampleCode/Simple_TLS_Server/app.
 5. Start the TLS client at SampleCode/Simple_TLS_Client/app.
 
+
+test application been tested by:
+Shwetank Anand
+IUDX
+
